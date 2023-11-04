@@ -1,15 +1,18 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Munch Madness - Login</title>
+    <title>Munch Madness - Register</title>
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
     <div class="login-container">
-        <h1>Login to Munch Madness</h1>
+        <h1>Register with Munch Madness</h1>
         <form>
+            <div class="form-group">
+                <label for="email">Email: </label>
+                <input type="text" id="email" name="email" placeholder="Enter your email" required>
+            </div>
             <div class="form-group">
                 <label for="username">Username: </label>
                 <input type="text" id="username" name="username" placeholder="Enter your username" required>
@@ -18,10 +21,11 @@
                 <label id="password" for="password">Password: </label>
                 <input type="password" name="password" placeholder="Enter your password" required>
             </div>
-            <div class="link-to-register">
-              <A href = "register.html">Don't have an account with us?</A>
-            </div>
-            <button type="submit">Login</button>
+          <div class="form-group">
+              <label for="confirmedpassword">Confirm Password: </label>
+              <input type="text" id="confirmedpassword" name="confirmedpassword" placeholder="Confirm Your Password" required>
+          </div>
+            <button type="submit">Register</button>
         </form>
     </div>
   <img src="SailingShip.jpg">
