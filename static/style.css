@@ -1,0 +1,21 @@
+html{
+  font-family: "Lucida Grande", sans-serif;
+  background-image: linear-gradient(deepskyblue, #1e537b);
+  height: 100%;
+  width: 100%;
+}
+h1{
+  color: maroon;
+}
+
+body{
+  text-align: center;
+}
+
+#password{
+  padding-right: 3px;
+}
+
+img{
+  padding-top: 180px;
+}
