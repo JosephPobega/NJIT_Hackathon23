@@ -1,0 +1,27 @@
+html{
+  font-family: "Lucida Grande", sans-serif;
+  background-image: linear-gradient(deepskyblue, #1e537b);
+  height: 100%;
+  width: 100%;
+}
+h1{
+  color: maroon;
+  text-align: center;
+}
+body{
+  text-align: center;
+}
+
+button{
+  padding-right: 9px;
+}
+
+.form-group{
+  position: relative;
+  text-align: right;
+  padding-right: 170px;
+}
+
+img{
+  padding-top: 180px;
+}
