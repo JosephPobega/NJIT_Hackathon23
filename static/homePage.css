@@ -1,13 +1,12 @@
 @charset "utf-8";
 
 html {
-    font-family: Verdana, Geneva, sans-serif;
     height: 100%;
     width:100%;
  }
 
 body{
-    background-color: aquamarine;
+    
     display: flex;
     flex-direction: column;
     margin:0;
@@ -15,37 +14,50 @@ body{
     height:100%;
     width:100%;
 
+
 }
 
 header{
-    background-color: red;
+    background:#186F65;
     max-height:10%;
-}
+    }
+
+
 
 div.rows{
     flex:1;
     border:1px solid black;
     flex-wrap: nowrap;
-
+    background: linear-gradient(to bottom,#B5CB99,#FCE09B);
+    padding:0;
+    margin:0;
 }
 
-div.filters{
-    background-color: green;
+
+div.leftSide{
     float: left;
     border:1px solid black;
-
+    width:34%;
+    height:100%;
+    overflow-y:auto;
+    scrollbar-width:thin;
+    scrollbar-color:darkgray lightgray;
 }
 
+
 div.wheel{
-    background-color: burlywood;
     float:right;
     border:1px solid black;
-
+    width:65%;
+    margin:0;
+    height:100%;
+    
 }
 
 footer{
-    background-color: beige;
+    background-color:#B2533E;
     max-height:10%;
+    
     
 }
 
