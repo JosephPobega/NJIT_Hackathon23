@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="homePage.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet"/>
     <title>Document</title>
 </head>
 
@@ -11,26 +12,37 @@
     <button id="startButton">Start Search</button>
 
     <header>
-        <p>HOWDY</p>
+        <p><img src="profilePic.png"><img src="setting.png"></p>
     </header>
 
     <div class="rows">
 
-        <div class="filters">
+        <div class="leftSide">
             
+            <div class="filters">
             <label for="distanceSlider">Distance (miles)</label>
-            <input name="distance" id="distanceSlider" type="range" value="10" step="1" min="0.5" max="30" />
+            <br>
+            <input name="distance" id="distanceSlider" type="range" value="10" step="1" />
+            </div>
 
-            <label for="Cusine">Cuisine</label>
-            <select name="filter1" id="filter1">
-                <option value="">Burger</option>
-                <option value="">Pizza</option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-            </select>
+            <div class="filters">
+            <label for="Cusine" multiple>Cuisine</label>
             
-            <label for="Cusine">Dining Experience</label>
+
+            <input type="checkbox">
+
+            <!-- <select name="filter1" id="filter1">
+                <option value="">Italian</option>
+                <option value="">Mexican</option>
+                <option value="">Chinese</option>
+                <option value="">Greek</option>
+                <option value="">American</option>
+            </select> -->
+
+            </div>
+            
+            <div class="filters">
+            <label for="diningEx">Dining Experience</label>
             <select name="diningExperience" id="diningEx">
                 <option value="">Fast Food</option>
                 <option value="">Dine-In</option>
@@ -38,6 +50,35 @@
                 <option value="">Delivery</option>
                 <option value="">Fine-Dining</option>
             </select>
+            </div>
+
+            <div class="filters">
+            <label for="meals">Meals</label> 
+            <select name="mealType" id="meals">
+                <option value="">Breakfast</option>
+                <option value="">Lunch</option>
+                <option value="">Dinner</option>
+            </select>  
+            </div>
+
+            <div class="filters">
+                <label for="price">Pricing</label> 
+                <select name="pricing" id="price">
+                    <option value="">$</option>
+                    <option value="">$$</option>
+                    <option value="">$$$</option>
+                </select>  
+            </div>
+
+            <div class="filters">
+                <label for="rating">Rating</label> 
+                <select name="ratingScore" id="rating">
+                    <option value="">*** & Up</option>
+                    <option value="">**** & Up</option>
+                    <option value="">*****</option>
+                </select>  
+            </div>
+
 
 
         </div>
